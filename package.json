@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "patch": "node scripts/apply-patches.mjs",
     "sync-models": "node scripts/sync-models.mjs",
-    "postinstall": "node scripts/apply-patches.mjs"
+    "postinstall": "node scripts/apply-patches.mjs",
+    "update": "node scripts/update-paperclip.mjs",
+    "update:check": "node scripts/update-paperclip.mjs --check"
   },
   "keywords": [],
   "type": "commonjs",
