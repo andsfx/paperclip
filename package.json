@@ -9,7 +9,10 @@
     "sync-models": "node scripts/sync-models.mjs",
     "postinstall": "node scripts/apply-patches.mjs",
     "update": "node scripts/update-paperclip.mjs",
-    "update:check": "node scripts/update-paperclip.mjs --check"
+    "update:check": "node scripts/update-paperclip.mjs --check",
+    "restart": "node scripts/restart-paperclip.mjs",
+    "restart:status": "node scripts/restart-paperclip.mjs --status",
+    "stop": "node scripts/restart-paperclip.mjs --stop"
   },
   "keywords": [],
   "type": "commonjs",
