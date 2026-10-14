@@ -1,0 +1,21 @@
+{
+  "name": "paperclip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "node scripts/apply-patches.mjs",
+    "sync-models": "node scripts/sync-models.mjs",
+    "postinstall": "node scripts/apply-patches.mjs"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "paperclipai": "2026.1012.0"
+  },
+  "overrides": {
+    "@anthropic-ai/sdk": "0.126.0",
+    "jsdom": "30.0.1"
+  }
+}

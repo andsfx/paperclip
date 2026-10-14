@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Paperclip instance data: database, workspaces, logs, secrets (.env)
+.paperclip/
+
+# Local backups and archives
+backup-*/
+pre-fresh/
+wipe-final/
+D-instance-default-fresh/
+*.tgz
+
+# Runtime
+*.log
